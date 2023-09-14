@@ -1,0 +1,162 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Web Exercise</title>
+<style>
+input, select, textarea, p
+{
+  padding: 12px; 
+}
+label 
+{
+  padding-left: 12px;
+  display: inline-block;
+}
+.col-25 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+}
+
+
+form
+{
+margin-top:2;
+margin-left:200;
+margin-bottom:2;
+margin-right:300;
+border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<form method="post" action="/action_page.php">
+<h1><center>Account Information</h1></center>
+<br>
+<div class="col-25">
+<label>Login Name*</label>
+</div>
+<input type="text" size="20"><br>
+<br>
+<div class="col-25">
+<label>Password*</label>
+</div>
+<input type="password" size="15"><br>
+<br>
+<div class="col-25">
+<label>Confirm Password*</label>
+</div>
+<input type="password" size="15"><br>
+<br>
+<div class="col-25">
+<label>E-Mail Address</label>
+</div>
+<input type="text"><br>
+<br>
+<div class="col-25">
+<label>Confirm Email</label>
+</div>
+<input type="text"><br>
+<br>
+<h1><center>Contact Information</center></h1>
+<br>
+<br>
+<div class="col-25">
+<label>First Name*</label>
+</div>
+<input type="text" size="20px"><br>
+<br>
+<div class="col-25">
+<label>Last Name*</label>
+</div>
+<input type="text" size="20px"><br>
+<br>
+<div class="col-25">
+<label>Address 1*</label>
+</div>
+<input type="text" size="20px"><br>
+<br>
+<div class="col-25">
+<label>Address 2*</label>
+</div>
+<input type="text" size="20px"><br>
+<br>
+<div class="col-25">
+<label>City*</label>
+</div>
+<input type="text" size="10px"><br>
+<br>
+<div class="col-25">
+<label>State or province</label>
+</div>
+<select name="province" size="1">
+<option value="Western Province" selected>Western Province</option>
+<option value="Southern Province">Southern Province</option>
+<option value="Northern Province">Northern province</option>
+<option value="Central province">Central Province</option>
+<option value="Eastern Province">Eastern province</option>
+<option value="North Western Province">North Western province</option>
+<option value="North Central Province">North Central Province</option>
+<option value="Uva Province">Uva province</option>
+<option value="Sabaragamuwa Province">Sabaragamuwa Province</option>
+</select><br>
+<br>
+<div class="col-25">
+<label>Zip*</label>
+</div>
+<input type="text" size="5"><br>
+<br>
+<div class="col-25">
+<label>Country*</label>
+</div>
+<input type="text" size="5"><br>
+<br>
+<div class="col-25">
+<label>Gender</label>
+</div>
+<input type="radio" name="Gender" value="Male">Male
+<input type="radio" name="Gender" value="Female">Female<br>
+<br>
+<h1><center>Misc. Information</center></h1><br>
+<br>
+<div class="col-25">
+<label>Annual house Hold Income</label>
+</div>
+<select name+"income" size="1">
+<option value="below Rs.25 0000/=" selected>Below Rs.25 0000/=</option>
+<option value="Rs.25 000/=-Rs.50 000/=">Rs.25 000/=-Rs.50 000/=</option>
+<option value="Rs.50 000/=-Rs.75000/=">Rs.50 000/=-Rs.75000/=</option>
+<option value="Rs.75 000/=-Rs.100 000/=>Rs.75 000/=-Rs.100 000/=</option>
+<option value="Rs.100 000/=-Rs.300 000/=">Rs.100 000/=-Rs.300 000/=</option>
+<option value="Above Rs.300 000/=">Above Rs.300 000/=</option>
+</select><br>
+<br>
+<div class="col-25">
+<label>Interest</label>
+</div>
+<input type="checkbox"  value="Shopping/Fashion">Shopping/Fashion
+<input type="checkbox"  value="Sports">Sports
+<input type="checkbox"  value="Travel">Travel<br>
+<br>
+<br>
+<div class="col-25">
+<label>Eye Ball</label>
+</div>
+
+<input type="radio" name="Eye Colour" value="Red">Red
+<input type="radio" name="Eye Colour" value="Green">Green
+<input type="radio" name="Eye Colour" value="Brown">Brown
+<input type="radio" name="Eye Colour" value="Blue Gold">Blue Gold
+
+<br>
+
+<br>
+<div class="col-25">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"><br>
+</div>
+<br>
+<br>
+</form>
+</body>
+</html>
